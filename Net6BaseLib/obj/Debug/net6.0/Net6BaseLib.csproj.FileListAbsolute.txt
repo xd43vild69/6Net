@@ -1,0 +1,13 @@
+/Users/d13/Documents/dev/6Net/Net6BaseLib/bin/Debug/net6.0/Net6BaseLib.deps.json
+/Users/d13/Documents/dev/6Net/Net6BaseLib/bin/Debug/net6.0/Net6BaseLib.dll
+/Users/d13/Documents/dev/6Net/Net6BaseLib/bin/Debug/net6.0/ref/Net6BaseLib.dll
+/Users/d13/Documents/dev/6Net/Net6BaseLib/bin/Debug/net6.0/Net6BaseLib.pdb
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.GlobalUsings.g.cs
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.csproj.AssemblyReference.cache
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.AssemblyInfoInputs.cache
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.AssemblyInfo.cs
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.csproj.CoreCompileInputs.cache
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.dll
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/ref/Net6BaseLib.dll
+/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.pdb
