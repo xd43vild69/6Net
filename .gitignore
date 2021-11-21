@@ -1,0 +1,5 @@
+Net6WebApi/bin/*
+Net6WebApi/obj/*
+
+Net6LibApi/bin/*
+Net6LibApi/obj/*

@@ -21,8 +21,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
-
-        Net6BaseLib.Class1 c1 = new Net6BaseLib.Class1();
         Net6BaseLib.SearchManager sm = new Net6BaseLib.SearchManager();
 
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast

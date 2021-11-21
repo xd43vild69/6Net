@@ -27,3 +27,4 @@
 /Users/d13/Documents/dev/6Net/Net6WebApi/obj/Debug/net6.0/ref/Net6WebApi.dll
 /Users/d13/Documents/dev/6Net/Net6WebApi/obj/Debug/net6.0/Net6WebApi.pdb
 /Users/d13/Documents/dev/6Net/Net6WebApi/obj/Debug/net6.0/Net6WebApi.genruntimeconfig.cache
+/Users/d13/Documents/dev/6Net/Net6WebApi/obj/Debug/net6.0/Net6WebApi.csproj.CopyComplete
