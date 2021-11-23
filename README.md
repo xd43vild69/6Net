@@ -15,3 +15,11 @@ add lib ref
 </ItemGroup>
 
 `dotnet run --urls "http://localhost:5100"`
+
+
+
+---
+
+Design Patterns
+
+https://www.dofactory.com/net/observer-design-pattern
