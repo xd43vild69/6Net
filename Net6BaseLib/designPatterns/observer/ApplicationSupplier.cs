@@ -5,25 +5,25 @@ namespace Net6BaseLib.designPatterns.observer;
 
 public class ApplicationSupplier : IObservable<UpdateApplication>
 {
-    private readonly List<IObserver<UpdateApplication>> _observer;
-    public List<UpdateApplication> Applications { get; set; }
+    private readonly List<IObserver<UpdateApplication>> _observers;
+    public List<UpdateApplication> SoftwareInstalled { get; set; }
 
     public List<UpdateApplication> GetApplications()
     {
-        return Applications;
+        return SoftwareInstalled;
     }
 
     public ApplicationSupplier()
     {
-        _observer = new List<IObserver<UpdateApplication>>();
-        Applications = new List<UpdateApplication>();
+        _observers = new List<IObserver<UpdateApplication>>();
+        SoftwareInstalled = new List<UpdateApplication>();
     }
 
     public IDisposable Subscribe(IObserver<UpdateApplication> observer)
     {
-        if (!_observer.Contains(observer))
+        if (!_observers.Contains(observer))
         {
-            _observer.Add(observer);
+            _observers.Add(observer);
 
             foreach (var item in GetApplications())
             {
@@ -31,10 +31,13 @@ public class ApplicationSupplier : IObservable<UpdateApplication>
             }
         }
 
-        return new Unsubscriber<UpdateApplication>(_observer, observer);
+        return new Unsubscriber<UpdateApplication>(_observers, observer);
     }
 
-    public void ApplicationUpdate(string version, string feature, string name){
+    public void ApplicationUpdate(string version, string feature, string name)
+    {
         var application = new UpdateApplication(version, feature, name);
+        foreach (var item in _observers)
+            item.OnNext(application);
     }
 }

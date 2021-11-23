@@ -11,6 +11,10 @@ public class ObserverPatternManager
         observer1.Subscribe(supplier);
 
         supplier.ApplicationUpdate("v2", "f2", "n2");
-        observer2.Subscribe(supplier);       
+        observer2.Subscribe(supplier);      
+
+        observer2.Unsubscriber();
+        
+         
     }
 }

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Cors;
-
+using Net6BaseLib;
 namespace Net6WebApi.Controllers;
 
 [ApiController]
@@ -17,7 +17,9 @@ public class UserController : ControllerBase
     //[EnableCors]
     [HttpGet(Name = "GetUser")]
     public IEnumerable<User> Get()
-    {        
+    {    
+        Net6BaseLib.designPatterns.observer.ObserverPatternManager opm = new Net6BaseLib.designPatterns.observer.ObserverPatternManager();
+        
         List<User> users = new List<User>(){
             new User(){userId=1,Name="D13",Password="12345"},
             new User(){userId=2,Name="x13",Password="12345"},
