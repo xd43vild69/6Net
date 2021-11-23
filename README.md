@@ -30,5 +30,9 @@ add lib ref
 
 `dotnet run --urls "http://localhost:5100"`
 
+***
 
+Markdown basics
+
+https://markdown-guide.readthedocs.io/en/latest/basics.html
 
