@@ -4,7 +4,20 @@ Net6WebApi/obj/*
 Net6LibApi/bin/*
 Net6LibApi/obj/*
 
-.dll
-.pdb
-.cache
-.exe
+*.cache
+*.dll
+*.exe
+*.pdb
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
+Version.cs
+Version.h
+Version.cpp
