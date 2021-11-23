@@ -3,3 +3,8 @@ Net6WebApi/obj/*
 
 Net6LibApi/bin/*
 Net6LibApi/obj/*
+
+.dll
+.pdb
+.cache
+.exe
