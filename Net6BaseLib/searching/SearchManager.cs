@@ -110,8 +110,6 @@ public class SearchManager
 
     public void CounterCharacter(string str)
     {
-        var count = 0;
-
         Dictionary<char, int> dic = new Dictionary<char, int>();
 
         // Validations

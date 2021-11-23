@@ -4,6 +4,20 @@
 
 ## focus - repetation - practice
 
+
+***
+
+## Design Patterns
+
+https://www.dofactory.com/net/observer-design-pattern
+
+https://refactoring.guru/design-patterns/behavioral-patterns
+
+
+***
+
+## Commands
+
 add lib ref
 
 `dotnet add reference lib1/originPro.csproj lib2/targetPro.cspro`
@@ -18,8 +32,3 @@ add lib ref
 
 
 
----
-
-Design Patterns
-
-https://www.dofactory.com/net/observer-design-pattern
