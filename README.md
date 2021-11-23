@@ -16,6 +16,24 @@ https://refactoring.guru/design-patterns/behavioral-patterns
 
 ***
 
+Architecture
+
+    Corp.DOMAIN
+        BAL: Business logic layer.
+        DTO: Data transfer objects.
+    Corp.DATA
+        SAL: Data acess layer.
+        Migrations EF.
+    Corp.API
+        API: Web API.
+    Corp.WEB:
+        APP: Application client.
+    Corp.TEST:
+        UnitTest: Unit Test project.
+
+
+***
+
 ## Commands
 
 add lib ref
