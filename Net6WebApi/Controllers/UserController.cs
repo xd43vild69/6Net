@@ -18,7 +18,7 @@ public class UserController : ControllerBase
     [HttpGet(Name = "GetUser")]
     public IEnumerable<User> Get()
     {    
-        Net6BaseLib.designPatterns.ObserverManager om = new Net6BaseLib.designPatterns.ObserverManager();
+        //Net6BaseLib.designPatterns.ObserverManager om = new Net6BaseLib.designPatterns.ObserverManager();
         
         List<User> users = new List<User>(){
             new User(){userId=1,Name="D13",Password="12345"},

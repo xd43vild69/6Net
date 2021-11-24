@@ -1,0 +1,13 @@
+/Users/d13/Documents/dev/6Net/Net6DAL/bin/Debug/net6.0/Net6DAL.deps.json
+/Users/d13/Documents/dev/6Net/Net6DAL/bin/Debug/net6.0/Net6DAL.dll
+/Users/d13/Documents/dev/6Net/Net6DAL/bin/Debug/net6.0/ref/Net6DAL.dll
+/Users/d13/Documents/dev/6Net/Net6DAL/bin/Debug/net6.0/Net6DAL.pdb
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.GlobalUsings.g.cs
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.csproj.AssemblyReference.cache
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.AssemblyInfoInputs.cache
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.AssemblyInfo.cs
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.csproj.CoreCompileInputs.cache
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.dll
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/ref/Net6DAL.dll
+/Users/d13/Documents/dev/6Net/Net6DAL/obj/Debug/net6.0/Net6DAL.pdb
