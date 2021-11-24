@@ -1,0 +1,13 @@
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6Domain.deps.json
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6Domain.dll
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/ref/Net6Domain.dll
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6Domain.pdb
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.GlobalUsings.g.cs
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.csproj.AssemblyReference.cache
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.AssemblyInfoInputs.cache
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.AssemblyInfo.cs
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.csproj.CoreCompileInputs.cache
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.dll
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/ref/Net6Domain.dll
+/Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.pdb

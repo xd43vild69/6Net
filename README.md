@@ -36,6 +36,8 @@ Architecture
 
 ## Commands
 
+create: `dotnet new classlib -o StringLibrary`
+
 add lib ref
 
 `dotnet add reference lib1/originPro.csproj lib2/targetPro.cspro`
@@ -47,6 +49,16 @@ add lib ref
 </ItemGroup>
 
 `dotnet run --urls "http://localhost:5100"`
+
+
+add lib to sln
+
+`dotnet sln add StringLibrary/StringLibrary.csproj`
+
+
+run project 
+
+`dotnet run --project ShowCase/ShowCase.csproj`
 
 ***
 
