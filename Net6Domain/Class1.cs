@@ -1,4 +1,4 @@
-﻿namespace Net6DTO;
+﻿namespace Net6Domain;
 public class Class1
 {
 

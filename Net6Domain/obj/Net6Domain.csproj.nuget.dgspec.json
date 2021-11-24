@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/d13/Documents/dev/6Net/Net6DAL/Net6DAL.csproj": {}
+    "/Users/d13/Documents/dev/6Net/Net6Domain/Net6Domain.csproj": {}
   },
   "projects": {
-    "/Users/d13/Documents/dev/6Net/Net6DAL/Net6DAL.csproj": {
+    "/Users/d13/Documents/dev/6Net/Net6Domain/Net6Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/d13/Documents/dev/6Net/Net6DAL/Net6DAL.csproj",
-        "projectName": "Net6DAL",
-        "projectPath": "/Users/d13/Documents/dev/6Net/Net6DAL/Net6DAL.csproj",
+        "projectUniqueName": "/Users/d13/Documents/dev/6Net/Net6Domain/Net6Domain.csproj",
+        "projectName": "Net6Domain",
+        "projectPath": "/Users/d13/Documents/dev/6Net/Net6Domain/Net6Domain.csproj",
         "packagesPath": "/Users/d13/.nuget/packages/",
-        "outputPath": "/Users/d13/Documents/dev/6Net/Net6DAL/obj/",
+        "outputPath": "/Users/d13/Documents/dev/6Net/Net6Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/d13/.nuget/NuGet/NuGet.Config"
