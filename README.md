@@ -1,8 +1,8 @@
 # 6Net
 
-## skills - training mind games
+## skills - training - mind games
 
-## focus - repetation - practice
+## focus - repetition - practice
 
 
 ***
