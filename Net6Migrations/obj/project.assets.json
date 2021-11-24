@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -115,7 +115,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -618,16 +618,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "Net6DTO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Net6DTO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Net6DTO.dll": {}
         }
       }
     }
@@ -1824,19 +1814,13 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Net6DTO/1.0.0": {
-      "type": "project",
-      "path": "../Net6DTO/Net6DTO.csproj",
-      "msbuildProject": "../Net6DTO/Net6DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
-      "Net6DTO >= 1.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -1845,11 +1829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/d13/Documents/dev/6Net/Net6Data/Net6Data.csproj",
-      "projectName": "Net6Data",
-      "projectPath": "/Users/d13/Documents/dev/6Net/Net6Data/Net6Data.csproj",
+      "projectUniqueName": "/Users/d13/Documents/dev/6Net/Net6Migrations/Net6Migrations.csproj",
+      "projectName": "Net6Migrations",
+      "projectPath": "/Users/d13/Documents/dev/6Net/Net6Migrations/Net6Migrations.csproj",
       "packagesPath": "/Users/d13/.nuget/packages/",
-      "outputPath": "/Users/d13/Documents/dev/6Net/Net6Data/obj/",
+      "outputPath": "/Users/d13/Documents/dev/6Net/Net6Migrations/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/d13/.nuget/NuGet/NuGet.Config"
@@ -1863,11 +1847,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/d13/Documents/dev/6Net/Net6DTO/Net6DTO.csproj": {
-              "projectPath": "/Users/d13/Documents/dev/6Net/Net6DTO/Net6DTO.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

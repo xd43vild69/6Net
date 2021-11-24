@@ -22,7 +22,7 @@ Architecture
         BAL: Business logic layer.
         DTO: Data transfer objects.
     Corp.DATA
-        SAL: Data acess layer.
+        DAL: Data acess layer.
         Migrations EF.
     Corp.API
         API: Web API.
@@ -37,10 +37,12 @@ Architecture
 ## Commands
 
 create: `dotnet new classlib -o StringLibrary`
+create: `dotnet new console -o Net6Migrations`
 
 add lib ref
 
 `dotnet add reference lib1/originPro.csproj lib2/targetPro.cspro`
+`dotnet add reference Net6Data.csproj ../Net6DTO/Net6DTO.csproj`
 
 <ItemGroup>
   <ProjectReference Include="originPro.csproj" />
@@ -59,6 +61,14 @@ add lib to sln
 run project 
 
 `dotnet run --project ShowCase/ShowCase.csproj`
+
+Nuget
+`dotnet add package Newtonsoft.Json`
+`dotnet tool install --global dotnet-ef`
+`dotnet add package Microsoft.EntityFrameworkCore`
+`dotnet add package Microsoft.EntityFrameworkCore.Design`
+`dotnet tool install --global dotnet-ef`
+
 
 ***
 

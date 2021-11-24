@@ -11,3 +11,7 @@
 /Users/d13/Documents/dev/6Net/Net6Data/obj/Debug/net6.0/Net6Data.dll
 /Users/d13/Documents/dev/6Net/Net6Data/obj/Debug/net6.0/ref/Net6Data.dll
 /Users/d13/Documents/dev/6Net/Net6Data/obj/Debug/net6.0/Net6Data.pdb
+/Users/d13/Documents/dev/6Net/Net6Data/bin/Debug/net6.0/Net6DTO.dll
+/Users/d13/Documents/dev/6Net/Net6Data/bin/Debug/net6.0/Net6DTO.pdb
+/Users/d13/Documents/dev/6Net/Net6Data/bin/Debug/net6.0/Net6Data.runtimeconfig.json
+/Users/d13/Documents/dev/6Net/Net6Data/obj/Debug/net6.0/Net6Data.genruntimeconfig.cache
