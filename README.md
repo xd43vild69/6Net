@@ -73,13 +73,25 @@ Nuget
 
 `dotnet add package Microsoft.EntityFrameworkCore.Design`
 
+EF core migration tool
+
 `dotnet tool install --global dotnet-ef`
 
 ***
 
 #EF
 
-dotnet ef dbcontext Scaffold "workstation id=xdavidgomez13.mssql.somee.com;packet size=4096;user id=xdavidgomez13_SQLLogin_1;pwd=******;data source=xdavidgomez13.mssql.somee.com;persist security info=False;initial catalog=xdavidgomez13" Microsoft.EntityFrameworkCore.SqlServer -o Context
+`dotnet ef dbcontext Scaffold "workstation id=xdavidgomez13.mssql.somee.com;packet size=4096;user id=xdavidgomez13_SQLLogin_1;pwd=******;data source=xdavidgomez13.mssql.somee.com;persist security info=False;initial catalog=xdavidgomez13" Microsoft.EntityFrameworkCore.SqlServer -o Context`
+
+## Migrations
+
+Initial migration
+
+`dotnet ef migrations add Initial --context ContextDal`
+
+Update DB
+
+`dotnet ef database update --context ContextDal1`
 
 ***
 
