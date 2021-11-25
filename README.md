@@ -162,7 +162,7 @@ merge
 
 `git merge alternative-branchName`
 
-xxx
+xxx - ttt
 
 
 
