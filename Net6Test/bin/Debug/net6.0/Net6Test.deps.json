@@ -11,7 +11,9 @@
           "MSTest.TestAdapter": "2.2.7",
           "MSTest.TestFramework": "2.2.7",
           "Microsoft.NET.Test.Sdk": "16.11.0",
+          "Net6DTO": "1.0.0",
           "Net6Data": "1.0.0",
+          "Net6Domain": "1.0.0",
           "coverlet.collector": "3.1.0"
         },
         "runtime": {
@@ -1503,6 +1505,15 @@
           "Net6Data.dll": {}
         }
       },
+      "Net6Domain/1.0.0": {
+        "dependencies": {
+          "Net6DTO": "1.0.0",
+          "Net6Data": "1.0.0"
+        },
+        "runtime": {
+          "Net6Domain.dll": {}
+        }
+      },
       "Net6DTO/1.0.0": {
         "runtime": {
           "Net6DTO.dll": {}
@@ -2385,6 +2396,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "Net6Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Net6Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

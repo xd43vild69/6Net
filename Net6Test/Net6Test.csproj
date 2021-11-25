@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Net6Data\Net6Data.csproj" />
+    <ProjectReference Include="..\Net6DTO\Net6DTO.csproj" />
     <ProjectReference Include="..\Net6Domain\Net6Domain.csproj" />
   </ItemGroup>
 

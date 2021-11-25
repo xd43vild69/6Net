@@ -10,4 +10,16 @@ public class UserManager
         var u = r.GetById(1);
         string x = string.Empty;
     }
+
+    public void Insert(User user)
+    {
+        Net6Data.UserRepository<User> r = new Net6Data.UserRepository<User>();
+        r.Insert(user);
+    }
+
+    public void Update(User user)
+    {
+        Net6Data.UserRepository<User> r = new Net6Data.UserRepository<User>();
+        r.Update(user);
+    }
 }

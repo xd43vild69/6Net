@@ -2188,6 +2188,20 @@
           "bin/placeholder/Net6Data.dll": {}
         }
       },
+      "Net6Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Net6DTO": "1.0.0",
+          "Net6Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Net6Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Net6Domain.dll": {}
+        }
+      },
       "Net6DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -7774,6 +7788,11 @@
       "path": "../Net6Data/Net6Data.csproj",
       "msbuildProject": "../Net6Data/Net6Data.csproj"
     },
+    "Net6Domain/1.0.0": {
+      "type": "project",
+      "path": "../Net6Domain/Net6Domain.csproj",
+      "msbuildProject": "../Net6Domain/Net6Domain.csproj"
+    },
     "Net6DTO/1.0.0": {
       "type": "project",
       "path": "../Net6DTO/Net6DTO.csproj",
@@ -7785,7 +7804,9 @@
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "Net6DTO >= 1.0.0",
       "Net6Data >= 1.0.0",
+      "Net6Domain >= 1.0.0",
       "coverlet.collector >= 3.1.0"
     ]
   },
@@ -7816,6 +7837,12 @@
           "projectReferences": {
             "/Users/d13/Documents/dev/6Net/Net6Data/Net6Data.csproj": {
               "projectPath": "/Users/d13/Documents/dev/6Net/Net6Data/Net6Data.csproj"
+            },
+            "/Users/d13/Documents/dev/6Net/Net6Domain/Net6Domain.csproj": {
+              "projectPath": "/Users/d13/Documents/dev/6Net/Net6Domain/Net6Domain.csproj"
+            },
+            "/Users/d13/Documents/dev/6Net/Net6DTO/Net6DTO.csproj": {
+              "projectPath": "/Users/d13/Documents/dev/6Net/Net6DTO/Net6DTO.csproj"
             }
           }
         }
