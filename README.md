@@ -140,7 +140,7 @@ Logs
 
 `git init`
 
-stash
+stage
 
 `git add .`
 
@@ -161,8 +161,6 @@ push local branch to remote origin branch
 merge
 
 `git merge alternative-branchName`
-
-`xxx - ttt`
 
 
 
