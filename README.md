@@ -154,6 +154,15 @@ move to that alternative branch
 
 `git checkout alternative-branchName`
 
+push local branch to remote origin branch
+
+`git push origin dev1`
+
 merge
 
 `git merge alternative-branchName`
+
+xxx
+
+
+
