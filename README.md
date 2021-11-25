@@ -1,6 +1,6 @@
 # 6Net
 
-## skills - training - mind games
+## skills - training - mind hacks
 
 ## focus - repetition - practice
 
@@ -99,3 +99,61 @@ Markdown basics
 
 https://markdown-guide.readthedocs.io/en/latest/basics.html
 
+***
+
+## Git Tips
+
+Alias
+
+`git config --global alias.ac "commit -am"`
+
+`git ac "this is a commit with add"`
+
+update the lastest comment
+
+`git commit --amend -m "change message"`
+
+update the lastest files - after push to remote
+
+`git add .`
+`git commit --amend --no-edit`
+
+go to previous Version - without remove history
+
+`git revert b47sdsak`
+
+save work with name
+
+`git stash save myCoolName`
+
+to use this : list then select by index
+
+`git stash list`
+`git stash apply 3`
+
+Logs
+
+`git log --graph --oneline --decorate`
+`git config --global alias.ld "log --graph --oneline --decorate"`
+
+## Git essencials
+
+`git init`
+
+stash
+
+`git add .`
+
+`git commit -m "msg1"`
+
+new branch
+
+`git branch alternative-branchName`
+
+move to that alternative branch
+
+`git checkout alternative-branchName`
+
+merge
+
+`git merge alternative-branchName`
