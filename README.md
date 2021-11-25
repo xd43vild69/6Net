@@ -162,5 +162,14 @@ merge
 
 `git merge alternative-branchName`
 
+delete branch local
+
+`git branch -d dev1`
+
+delete branch remote
+
+`git push origin --delete dev1`
+
+
 
 
