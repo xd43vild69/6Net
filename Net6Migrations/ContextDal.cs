@@ -12,5 +12,23 @@ public class ContextDal: DbContext
     public ContextDal(DbContextOptions<ContextDal> options) : base(options)
     {
     }
+
+    public ContextDal(string connectionString)
+    {
+        _connectionString = connectionString;
+    }
+
+     private readonly string _connectionString;
+
+    public ApplicationDbContext(string connectionString)
+    {
+        _connectionString = connectionString;
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer(_connectionString);
+    }
+
     public DbSet<User> Users { get; set; }
 }
