@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -115,7 +115,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -618,6 +618,16 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Net6DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Net6DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Net6DTO.dll": {}
         }
       }
     }
@@ -1814,13 +1824,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Net6DTO/1.0.0": {
+      "type": "project",
+      "path": "../Net6DTO/Net6DTO.csproj",
+      "msbuildProject": "../Net6DTO/Net6DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
+      "Net6DTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1847,7 +1863,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/d13/Documents/dev/6Net/Net6DTO/Net6DTO.csproj": {
+              "projectPath": "/Users/d13/Documents/dev/6Net/Net6DTO/Net6DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

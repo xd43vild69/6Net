@@ -37,11 +37,13 @@ Architecture
 ## Commands
 
 create: `dotnet new classlib -o StringLibrary`
+
 create: `dotnet new console -o Net6Migrations`
 
 add lib ref
 
 `dotnet add reference lib1/originPro.csproj lib2/targetPro.cspro`
+
 `dotnet add reference Net6Data.csproj ../Net6DTO/Net6DTO.csproj`
 
 <ItemGroup>
@@ -64,11 +66,20 @@ run project
 
 Nuget
 `dotnet add package Newtonsoft.Json`
-`dotnet tool install --global dotnet-ef`
-`dotnet add package Microsoft.EntityFrameworkCore`
-`dotnet add package Microsoft.EntityFrameworkCore.Design`
+
 `dotnet tool install --global dotnet-ef`
 
+`dotnet add package Microsoft.EntityFrameworkCore`
+
+`dotnet add package Microsoft.EntityFrameworkCore.Design`
+
+`dotnet tool install --global dotnet-ef`
+
+***
+
+#EF
+
+dotnet ef dbcontext Scaffold "workstation id=xdavidgomez13.mssql.somee.com;packet size=4096;user id=xdavidgomez13_SQLLogin_1;pwd=******;data source=xdavidgomez13.mssql.somee.com;persist security info=False;initial catalog=xdavidgomez13" Microsoft.EntityFrameworkCore.SqlServer -o Context
 
 ***
 
