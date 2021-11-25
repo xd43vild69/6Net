@@ -1,4 +1,5 @@
 using Net6DTO;
+using Microsoft.EntityFrameworkCore;
 
 namespace Net6Data;
 
@@ -11,7 +12,10 @@ public class UserRepository<T> : IRepository<T> where T: User, new()
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            using (var db = new ContextDal())
+            {
+                return db.Set<T>().FirstOrDefault(x => x.UserId == id);
+            }
         }
 
         public IEnumerable<T> GetLists()

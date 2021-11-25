@@ -11,3 +11,7 @@
 /Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.dll
 /Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/ref/Net6Domain.dll
 /Users/d13/Documents/dev/6Net/Net6Domain/obj/Debug/net6.0/Net6Domain.pdb
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6Data.dll
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6DTO.dll
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6Data.pdb
+/Users/d13/Documents/dev/6Net/Net6Domain/bin/Debug/net6.0/Net6DTO.pdb

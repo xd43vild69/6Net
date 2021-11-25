@@ -14,4 +14,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Net6Data\Net6Data.csproj" />
+    <ProjectReference Include="..\Net6Domain\Net6Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -42,7 +42,7 @@ create: `dotnet new console -o Net6Migrations`
 
 add lib ref
 
-`dotnet add reference lib1/originPro.csproj lib2/targetPro.cspro`
+`dotnet add reference lib1/targetPro.csproj`
 
 `dotnet add reference Net6Data.csproj ../Net6DTO/Net6DTO.csproj`
 
