@@ -31,4 +31,7 @@ public class ContextDal : DbContext
 
     public DbSet<User> Users { get; set; }
     public DbSet<Design> Designs { get; set; }
+    public DbSet<Soundtrack> Soundtracks { get; set; }
+    public DbSet<CompositionElements> CompositionElements { get; set; }
+    public DbSet<Theme> Themes { get; set; }
 }

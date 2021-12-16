@@ -11,8 +11,8 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            //"program": "${workspaceFolder}/Net6WebApi/bin/Debug/net6.0/Net6WebApi.dll",
-            "program": "${workspaceFolder}/Net6Console/bin/Debug/net6.0/Net6Console.dll",
+            "program": "${workspaceFolder}/Net6WebApi/bin/Debug/net6.0/Net6WebApi.dll",
+            // "program": "${workspaceFolder}/Net6Console/bin/Debug/net6.0/Net6Console.dll",
             "args": [],
             //"cwd": "${workspaceFolder}/Net6WebApi",
             "cwd": "${workspaceFolder}/Net6Console",
