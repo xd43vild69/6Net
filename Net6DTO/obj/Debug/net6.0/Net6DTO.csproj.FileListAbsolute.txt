@@ -11,3 +11,15 @@
 /Users/d13/Documents/dev/6Net/Net6DTO/obj/Debug/net6.0/Net6DTO.dll
 /Users/d13/Documents/dev/6Net/Net6DTO/obj/Debug/net6.0/ref/Net6DTO.dll
 /Users/d13/Documents/dev/6Net/Net6DTO/obj/Debug/net6.0/Net6DTO.pdb
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/bin/Debug/net6.0/Net6DTO.deps.json
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/bin/Debug/net6.0/Net6DTO.dll
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/bin/Debug/net6.0/Net6DTO.pdb
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.csproj.AssemblyReference.cache
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.AssemblyInfoInputs.cache
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.AssemblyInfo.cs
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.csproj.CoreCompileInputs.cache
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.dll
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/refint/Net6DTO.dll
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/Net6DTO.pdb
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6DTO/obj/Debug/net6.0/ref/Net6DTO.dll

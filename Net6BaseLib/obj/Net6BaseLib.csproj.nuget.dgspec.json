@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/d13/Documents/dev/6Net/Net6BaseLib/Net6BaseLib.csproj": {}
+    "/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/Net6BaseLib.csproj": {}
   },
   "projects": {
-    "/Users/d13/Documents/dev/6Net/Net6BaseLib/Net6BaseLib.csproj": {
+    "/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/Net6BaseLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/d13/Documents/dev/6Net/Net6BaseLib/Net6BaseLib.csproj",
+        "projectUniqueName": "/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/Net6BaseLib.csproj",
         "projectName": "Net6BaseLib",
-        "projectPath": "/Users/d13/Documents/dev/6Net/Net6BaseLib/Net6BaseLib.csproj",
-        "packagesPath": "/Users/d13/.nuget/packages/",
-        "outputPath": "/Users/d13/Documents/dev/6Net/Net6BaseLib/obj/",
+        "projectPath": "/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/Net6BaseLib.csproj",
+        "packagesPath": "/Users/davidgomezmonsalve/.nuget/packages/",
+        "outputPath": "/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/d13/.nuget/NuGet/NuGet.Config"
+          "/Users/davidgomezmonsalve/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages/Ardalis.CleanArchitecture.Template/": {}
         },
         "frameworks": {
           "net6.0": {
@@ -43,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.2.21505.57/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

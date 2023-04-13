@@ -11,3 +11,15 @@
 /Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.dll
 /Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/ref/Net6BaseLib.dll
 /Users/d13/Documents/dev/6Net/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.pdb
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/bin/Debug/net6.0/Net6BaseLib.deps.json
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/bin/Debug/net6.0/Net6BaseLib.dll
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/bin/Debug/net6.0/Net6BaseLib.pdb
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.csproj.AssemblyReference.cache
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.AssemblyInfoInputs.cache
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.AssemblyInfo.cs
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.csproj.CoreCompileInputs.cache
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.dll
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/refint/Net6BaseLib.dll
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/Net6BaseLib.pdb
+/Users/davidgomezmonsalve/Documents/dev/net6_2/Net6BaseLib/obj/Debug/net6.0/ref/Net6BaseLib.dll
